@@ -32,3 +32,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Docs
+# TODO: add this folder to the github project once jsdoc kinks are worked out
+/docs/
