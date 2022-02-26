@@ -26,8 +26,8 @@
 			"ui/*": ["src/components/widgets*"],
 			"public/*": ["src/public/*"],
 			"hooks/*": ["src/hooks/*"],
-			"__tests__/*": ["tests/__tests__/*"],
-			"__mocks__/*": ["tests/__mocks__/*"]
+			"__tests__/*": ["__tests__/*"],
+			"__mocks__/*": ["__tests__/__mocks__/*"]
 		}
 	},
 	"include": ["src", "node_modules/@types", "__tests__/**/**.ts", "__tests__/**/**.tsx"],

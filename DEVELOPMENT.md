@@ -13,11 +13,11 @@ This project is intended to be used to spin up a Reactjs production quality appl
 
 ## Future considerations
 
-- Add [lint-staged](https://github.com/okonet/lint-staged)
 - Add [husky pre-commit scripts](https://github.com/semantic-release/semantic-release)
+- Add [lint-staged](https://github.com/okonet/lint-staged)?
+- Add [jsDoc](https://wojciechkrysiak.medium.com/typescript-jsdoc-better-docs-7c03b6ea04df)?
 
-# Comment your code
+# Test your code
 
-Comment your code! This project uses JSDocs to AUTOMATICALLY generate code documentation
-
-[JSDocs style guide](https://github.com/shri/JSDoc-Style-Guide)
+Test your code! This project uses Jest tests to test individual functions and components.
+This project also uses Playwright for end to end regression testing. Testing is the best form of living documentation of what your code does.
