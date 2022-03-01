@@ -30,6 +30,12 @@
 			"__mocks__/*": ["__tests__/__mocks__/*"]
 		}
 	},
-	"include": ["src", "node_modules/@types", "__tests__/**/**.ts", "__tests__/**/**.tsx"],
+	"include": [
+		"src",
+		"node_modules/@types",
+		"__tests__/**/**.ts",
+		"__tests__/**/**.tsx",
+		"playwright.config.ts"
+	],
 	"exclude": ["node_modules"]
 }
